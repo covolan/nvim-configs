@@ -38,3 +38,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move selected lines up" }
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move selected lines down" })
 vim.keymap.set("n", "<F2>", ":%s/", { desc = "Start search and replace" })
 vim.keymap.set("n", "<leader>L", ":vsplit<CR>", { desc = "Create a vertical split" })
+vim.keymap.set("n", "<C-u>", "<C-u>zz", { desc = "Go up and re-center" })
+vim.keymap.set("n", "<C-d>", "<C-d>zz", { desc = "Go down and re-center" })
+vim.keymap.set("v", "<C-u>", "<C-u>zz", { desc = "Go up and re-center visual" })
+vim.keymap.set("v", "<C-d>", "<C-d>zz", { desc = "Go down and re-center visual" })
