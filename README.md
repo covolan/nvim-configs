@@ -1,10 +1,16 @@
-# Neovim-configuration
+# Tools configurations 
 
-This is my repository for storing my neovim configurations.
+This is my repository for keeping my tools configurations.
 
-This configuration started from kickstart neovim. I separated the configurations into their own files for organization porpuses.
-Feel free to yank anything from the configuration. The init_old.lua is pretty much the same that the init.lua from the kickstart neovim. Just with some comments erased.
+I have configurations for NeoVim, i3 WM, rofi and polybar.
 
-the file _init.lua_ has the dependencies, in this case is the folder in witch my configs ar stored, that is _lua/covolan_.
-Inside it, there is another _init.lua_ that points to the initialization of the settup (_set.lua_), the keybinds (_keymap.lua_) and the lazy file (_lazy_init.lua_).
-This refers the lazy folder that has all the pluggins from lazy.
+This configurations are free of use for anyone that wish to copy them. Some of them are pretty standart
+as I usually take the defaut configuration and modify it to my needs.
+All of the applications are using the catppuccin theme.
+
+For the neovim installation, I used Fuse to run the appimage. also needed `git`, `make`, `unzip`, `gcc` and
+`ripgrep`.
+
+For the i3 installation the dependencies of my configuration are: `polybar`, `picom`, `feh`, `rofi` and `gnome-screenshot`.
+
+For the rofi configuration, i basically installed the catppucinn frappe theme.
